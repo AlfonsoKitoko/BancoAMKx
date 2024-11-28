@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		xmlns:tools="http://schemas.android.com/tools"
+		tools:context=".LoginActivity">
+
+	<TextView
+			android:id="@+id/tvInicioSesion"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintBottom_toTopOf="@id/etUsuario"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			android:text="@string/incioSesion"
+			android:textSize="25sp" />
+
+	<EditText android:id="@+id/etUsuario"
+			android:layout_width="250dp"
+			android:layout_height="wrap_content"
+			app:layout_constraintTop_toBottomOf="@id/tvInicioSesion"
+			app:layout_constraintBottom_toTopOf="@id/etContra"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			android:hint="@string/hintUsuario"
+			android:text="@string/Usuario"
+			android:inputType="text"
+			android:textSize="20sp" />
+
+	<EditText android:id="@+id/etContra"
+			android:layout_width="250dp"
+			android:layout_height="wrap_content"
+			app:layout_constraintTop_toBottomOf="@id/etUsuario"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			android:hint="@string/hintContra"
+			android:text="@string/Contra"
+			android:inputType="textPassword"
+			android:textSize="20sp" />
+
+	<Button
+			android:id="@+id/btEntrar"
+			android:background="@drawable/button"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			app:layout_constraintTop_toBottomOf="@id/etContra"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toStartOf="@id/btSalir"
+			android:text="@string/btIntro"
+			app:layout_constraintVertical_bias="0.20" />
+
+	<Button
+			android:id="@+id/btSalir"
+			android:background="@drawable/button"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			app:layout_constraintTop_toBottomOf="@id/etContra"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toEndOf="@id/btEntrar"
+			app:layout_constraintEnd_toEndOf="parent"
+			android:text="@string/btSalir"
+			app:layout_constraintVertical_bias="0.20" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

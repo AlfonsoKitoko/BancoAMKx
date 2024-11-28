@@ -1,0 +1,12 @@
+<resources>
+	<string name="app_name">BancoAMK</string>
+	<string name="Intro">Bienvenido a tu banco</string>
+	<string name="btIntro">ENTRAR</string>
+	<string name="incioSesion">Iniciar sesión</string>
+	<string name="hintUsuario">Usuario</string>
+	<string name="Usuario" />
+	<string name="Contra" />
+	<string name="hintContra">Contraseña</string>
+	<string name="btSalir">SALIR</string>
+	<string name="Bienvenida">Bienvenido/a, {Usuario}</string>
+</resources>
