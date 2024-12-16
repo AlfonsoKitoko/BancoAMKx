@@ -8,14 +8,12 @@
 
 	<TextView
 			android:id="@+id/tvInicioSesion"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
+			style="@style/Theme.BancoAMK.Titulo"
 			app:layout_constraintTop_toTopOf="parent"
 			app:layout_constraintBottom_toTopOf="@id/etUsuario"
 			app:layout_constraintStart_toStartOf="parent"
 			app:layout_constraintEnd_toEndOf="parent"
-			android:text="@string/incioSesion"
-			android:textSize="25sp" />
+			android:text="@string/login" />
 
 	<EditText android:id="@+id/etUsuario"
 			android:layout_width="250dp"
@@ -24,8 +22,8 @@
 			app:layout_constraintBottom_toTopOf="@id/etContra"
 			app:layout_constraintStart_toStartOf="parent"
 			app:layout_constraintEnd_toEndOf="parent"
-			android:hint="@string/hintUsuario"
-			android:text="@string/Usuario"
+			android:hint="@string/hintUser"
+			android:text="@string/username"
 			android:inputType="text"
 			android:textSize="20sp" />
 
@@ -35,33 +33,29 @@
 			app:layout_constraintTop_toBottomOf="@id/etUsuario"
 			app:layout_constraintStart_toStartOf="parent"
 			app:layout_constraintEnd_toEndOf="parent"
-			android:hint="@string/hintContra"
-			android:text="@string/Contra"
+			android:hint="@string/hintPass"
+			android:text="@string/password"
 			android:inputType="textPassword"
 			android:textSize="20sp" />
 
 	<Button
 			android:id="@+id/btEntrar"
-			android:background="@drawable/button"
-			android:layout_width="150dp"
-			android:layout_height="wrap_content"
+			style="@style/Theme.BancoAMK.Botones"
 			app:layout_constraintTop_toBottomOf="@id/etContra"
 			app:layout_constraintBottom_toBottomOf="parent"
 			app:layout_constraintStart_toStartOf="parent"
 			app:layout_constraintEnd_toStartOf="@id/btSalir"
-			android:text="@string/btIntro"
+			android:text="@string/enter"
 			app:layout_constraintVertical_bias="0.20" />
 
 	<Button
 			android:id="@+id/btSalir"
-			android:background="@drawable/button"
-			android:layout_width="150dp"
-			android:layout_height="wrap_content"
+			style="@style/Theme.BancoAMK.Botones"
 			app:layout_constraintTop_toBottomOf="@id/etContra"
 			app:layout_constraintBottom_toBottomOf="parent"
 			app:layout_constraintStart_toEndOf="@id/btEntrar"
 			app:layout_constraintEnd_toEndOf="parent"
-			android:text="@string/btSalir"
+			android:text="@string/exit"
 			app:layout_constraintVertical_bias="0.20" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

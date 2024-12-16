@@ -1,0 +1,18 @@
+<resources>
+	<string name="app_name">BancoAMK</string>
+	<string name="intro">Bienvenido a tu banco</string>
+	<string name="enter">ENTRAR</string>
+	<string name="login">Iniciar sesión</string>
+	<string name="hintUser">Nombre de usuario</string>
+	<string name="username" />
+	<string name="password" />
+	<string name="hintPass">Contraseña</string>
+	<string name="exit">SALIR</string>
+	<string name="welcome">Bienvenido/a, </string>
+	<string name="global_position">POSICIÓN GLOBAL</string>
+	<string name="movements">MOVIMIENTOS</string>
+	<string name="transferences">TRANSFERENCIAS</string>
+	<string name="change_password">CAMBIAR CONTRASEÑA</string>
+	<string name="promotions">PROMOCIONES</string>
+	<string name="atms">CAJEROS</string>
+</resources>

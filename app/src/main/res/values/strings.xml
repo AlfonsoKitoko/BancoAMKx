@@ -1,12 +1,18 @@
 <resources>
 	<string name="app_name">BancoAMK</string>
-	<string name="Intro">Bienvenido a tu banco</string>
-	<string name="btIntro">ENTRAR</string>
-	<string name="incioSesion">Iniciar sesión</string>
-	<string name="hintUsuario">Usuario</string>
-	<string name="Usuario" />
-	<string name="Contra" />
-	<string name="hintContra">Contraseña</string>
-	<string name="btSalir">SALIR</string>
-	<string name="Bienvenida">Bienvenido/a, {Usuario}</string>
+	<string name="intro">Welcome to your bank</string>
+	<string name="enter">ENTER</string>
+	<string name="login">Log in</string>
+	<string name="hintUser">Username</string>
+	<string name="username" />
+	<string name="password" />
+	<string name="hintPass">Password</string>
+	<string name="exit">EXIT</string>
+	<string name="welcome">Welcome, </string>
+	<string name="global_position">GLOBAL POSITION</string>
+	<string name="movements">MOVEMENTS</string>
+	<string name="transferences">TRANSFERENCES</string>
+	<string name="change_password">CHANGE PASSWORD</string>
+	<string name="promotions">PROMOTIONS</string>
+	<string name="atms">ATMs</string>
 </resources>

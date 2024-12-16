@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
 		xmlns:tools="http://schemas.android.com/tools"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		xmlns:app="http://schemas.android.com/apk/res-auto"
-		tools:context=".WelcomeActivity">
+		tools:context=".WelcomeActivity"
+		android:padding="25dp"
+		android:background="@drawable/playita">
 
-	<TextView android:id="@+id/tvIntro"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
+	<TextView
+			android:id="@+id/tvIntro"
+			style="@style/Theme.BancoAMK.Titulo"
 			app:layout_constraintTop_toTopOf="parent"
 			app:layout_constraintBottom_toBottomOf="parent"
 			app:layout_constraintVertical_bias="0.1"
 			app:layout_constraintEnd_toEndOf="parent"
 			app:layout_constraintStart_toStartOf="parent"
-			android:text="@string/Intro"
-			android:textSize="25sp" />
+			android:text="@string/intro" />
 
-	<Button android:id="@+id/btIntro"
-			android:background="@drawable/button"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
+	<Button
+			android:id="@+id/btIntro"
+			style="@style/Theme.BancoAMK.Botones"
+			android:layout_width="match_parent"
 			app:layout_constraintStart_toStartOf="parent"
 			app:layout_constraintEnd_toEndOf="parent"
 			app:layout_constraintVertical_bias="0.1"
 			app:layout_constraintTop_toBottomOf="@+id/tvIntro"
 			app:layout_constraintBottom_toBottomOf="parent"
-			android:text="@string/btIntro"
+			android:text="@string/enter"
 			android:textSize="25sp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
