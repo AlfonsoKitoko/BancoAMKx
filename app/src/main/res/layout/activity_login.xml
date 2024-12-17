@@ -4,6 +4,7 @@
 		android:layout_height="match_parent"
 		xmlns:app="http://schemas.android.com/apk/res-auto"
 		xmlns:tools="http://schemas.android.com/tools"
+		android:paddingVertical="25dp"
 		tools:context=".LoginActivity">
 
 	<TextView
@@ -39,7 +40,7 @@
 			android:textSize="20sp" />
 
 	<Button
-			android:id="@+id/btEntrar"
+			android:id="@+id/btLogin"
 			style="@style/Theme.BancoAMK.Botones"
 			app:layout_constraintTop_toBottomOf="@id/etContra"
 			app:layout_constraintBottom_toBottomOf="parent"
@@ -53,7 +54,7 @@
 			style="@style/Theme.BancoAMK.Botones"
 			app:layout_constraintTop_toBottomOf="@id/etContra"
 			app:layout_constraintBottom_toBottomOf="parent"
-			app:layout_constraintStart_toEndOf="@id/btEntrar"
+			app:layout_constraintStart_toEndOf="@id/btLogin"
 			app:layout_constraintEnd_toEndOf="parent"
 			android:text="@string/exit"
 			app:layout_constraintVertical_bias="0.20" />

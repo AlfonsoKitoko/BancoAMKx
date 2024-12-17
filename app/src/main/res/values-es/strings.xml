@@ -8,11 +8,15 @@
 	<string name="password" />
 	<string name="hintPass">Contraseña</string>
 	<string name="exit">SALIR</string>
-	<string name="welcome">Bienvenido/a, </string>
+	<string name="welcome">Bienvenido/a</string>
 	<string name="global_position">POSICIÓN GLOBAL</string>
 	<string name="movements">MOVIMIENTOS</string>
 	<string name="transferences">TRANSFERENCIAS</string>
 	<string name="change_password">CAMBIAR CONTRASEÑA</string>
 	<string name="promotions">PROMOCIONES</string>
 	<string name="atms">CAJEROS</string>
+	<string name="actual_password">Contraseña actual:</string>
+	<string name="new_password1">Nueva contraseña:</string>
+	<string name="new_password2">Repite nueva contraseña:</string>
+	<string name="btChange_pass">GUARDAR</string>
 </resources>

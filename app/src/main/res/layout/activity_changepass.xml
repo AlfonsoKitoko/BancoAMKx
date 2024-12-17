@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 		android:layout_width="match_parent"
-		android:layout_height="match_parent">
+		android:layout_height="match_parent"
+		android:padding="15dp"
+		android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+	<TextView android:id="@+id/Titulo"
+		style="@style/Theme.BancoAMK.Titulo"
+			android:layout_width="match_parent"
+			android:layout_height="100dp"
+		android:gravity="center"
+		android:text="@string/change_password"/>
+	
+	<TextView android:id="@+id/ActualPass"
+		style="@style/Theme.BancoAMK.Texto"
+			android:layout_marginBottom="25dp"
+		android:text="@string/actual_password" />
+	
+	<EditText android:id="@+id/etActualPass"
+		style="@style/Theme.BancoAMK.Texto"
+			android:layout_width="match_parent"
+			android:layout_marginBottom="25dp"
+		android:inputType="textPassword"
+		android:text="" />
+
+	<TextView android:id="@+id/newPass1"
+			style="@style/Theme.BancoAMK.Texto"
+			android:layout_marginBottom="25dp"
+			android:text="@string/new_password1" />
+
+	<EditText android:id="@+id/etNewPass1"
+			style="@style/Theme.BancoAMK.Texto"
+			android:layout_width="match_parent"
+			android:layout_marginBottom="25dp"
+			android:inputType="textPassword"
+			android:text="" />
+	<TextView android:id="@+id/newPass2"
+			style="@style/Theme.BancoAMK.Texto"
+			android:layout_marginBottom="25dp"
+			android:text="@string/new_password2" />
+
+	<EditText android:id="@+id/etNewPass2"
+			style="@style/Theme.BancoAMK.Texto"
+			android:layout_width="match_parent"
+			android:layout_marginBottom="25dp"
+			android:inputType="textPassword"
+			android:text="" />
+	<Button android:id="@+id/btSave"
+		style="@style/Theme.BancoAMK.Botones"
+		android:layout_width="match_parent"
+		android:text="@string/btChange_pass" />
+</LinearLayout>

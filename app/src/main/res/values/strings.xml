@@ -8,11 +8,15 @@
 	<string name="password" />
 	<string name="hintPass">Password</string>
 	<string name="exit">EXIT</string>
-	<string name="welcome">Welcome, </string>
+	<string name="welcome">Welcome</string>
 	<string name="global_position">GLOBAL POSITION</string>
 	<string name="movements">MOVEMENTS</string>
 	<string name="transferences">TRANSFERENCES</string>
 	<string name="change_password">CHANGE PASSWORD</string>
 	<string name="promotions">PROMOTIONS</string>
 	<string name="atms">ATMs</string>
+	<string name="actual_password">Actual password:</string>
+	<string name="new_password1">New password:</string>
+	<string name="new_password2">Repeat new password:</string>
+	<string name="btChange_pass">SAVE</string>
 </resources>
