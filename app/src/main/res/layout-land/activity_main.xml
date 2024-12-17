@@ -12,7 +12,7 @@
 	<TextView android:id="@+id/tvWelcome"
 		style="@style/Theme.BancoAMK.Titulo"
 		android:layout_width="match_parent"
-		android:layout_height="100dp"
+		android:layout_height="50dp"
 		android:gravity="center"
 		android:text="@string/welcome" />
 	<LinearLayout
